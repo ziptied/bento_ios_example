@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DAEDB55A2CB22647002B3DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAEDB5412CB22645002B3DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAEDB5482CB22645002B3DAC;
+			remoteInfo = "bento-ios-example";
+		};
+		DAEDB5642CB22647002B3DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAEDB5412CB22645002B3DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAEDB5482CB22645002B3DAC;
+			remoteInfo = "bento-ios-example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAEDB5492CB22645002B3DAC /* bento-ios-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bento-ios-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAEDB5592CB22647002B3DAC /* bento-ios-exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bento-ios-exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAEDB5632CB22647002B3DAC /* bento-ios-exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bento-ios-exampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DAEDB54B2CB22645002B3DAC /* bento-ios-example */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "bento-ios-example";
+			sourceTree = "<group>";
+		};
+		DAEDB55C2CB22647002B3DAC /* bento-ios-exampleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "bento-ios-exampleTests";
+			sourceTree = "<group>";
+		};
+		DAEDB5662CB22647002B3DAC /* bento-ios-exampleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "bento-ios-exampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAEDB5462CB22645002B3DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAEDB5562CB22647002B3DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAEDB5602CB22647002B3DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAEDB5402CB22645002B3DAC = {
+			isa = PBXGroup;
+			children = (
+				DAEDB54B2CB22645002B3DAC /* bento-ios-example */,
+				DAEDB55C2CB22647002B3DAC /* bento-ios-exampleTests */,
+				DAEDB5662CB22647002B3DAC /* bento-ios-exampleUITests */,
+				DAEDB54A2CB22645002B3DAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAEDB54A2CB22645002B3DAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAEDB5492CB22645002B3DAC /* bento-ios-example.app */,
+				DAEDB5592CB22647002B3DAC /* bento-ios-exampleTests.xctest */,
+				DAEDB5632CB22647002B3DAC /* bento-ios-exampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAEDB5482CB22645002B3DAC /* bento-ios-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAEDB56D2CB22647002B3DAC /* Build configuration list for PBXNativeTarget "bento-ios-example" */;
+			buildPhases = (
+				DAEDB5452CB22645002B3DAC /* Sources */,
+				DAEDB5462CB22645002B3DAC /* Frameworks */,
+				DAEDB5472CB22645002B3DAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DAEDB54B2CB22645002B3DAC /* bento-ios-example */,
+			);
+			name = "bento-ios-example";
+			packageProductDependencies = (
+			);
+			productName = "bento-ios-example";
+			productReference = DAEDB5492CB22645002B3DAC /* bento-ios-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAEDB5582CB22647002B3DAC /* bento-ios-exampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAEDB5702CB22647002B3DAC /* Build configuration list for PBXNativeTarget "bento-ios-exampleTests" */;
+			buildPhases = (
+				DAEDB5552CB22647002B3DAC /* Sources */,
+				DAEDB5562CB22647002B3DAC /* Frameworks */,
+				DAEDB5572CB22647002B3DAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAEDB55B2CB22647002B3DAC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DAEDB55C2CB22647002B3DAC /* bento-ios-exampleTests */,
+			);
+			name = "bento-ios-exampleTests";
+			packageProductDependencies = (
+			);
+			productName = "bento-ios-exampleTests";
+			productReference = DAEDB5592CB22647002B3DAC /* bento-ios-exampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAEDB5622CB22647002B3DAC /* bento-ios-exampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAEDB5732CB22647002B3DAC /* Build configuration list for PBXNativeTarget "bento-ios-exampleUITests" */;
+			buildPhases = (
+				DAEDB55F2CB22647002B3DAC /* Sources */,
+				DAEDB5602CB22647002B3DAC /* Frameworks */,
+				DAEDB5612CB22647002B3DAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAEDB5652CB22647002B3DAC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DAEDB5662CB22647002B3DAC /* bento-ios-exampleUITests */,
+			);
+			name = "bento-ios-exampleUITests";
+			packageProductDependencies = (
+			);
+			productName = "bento-ios-exampleUITests";
+			productReference = DAEDB5632CB22647002B3DAC /* bento-ios-exampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAEDB5412CB22645002B3DAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					DAEDB5482CB22645002B3DAC = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					DAEDB5582CB22647002B3DAC = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = DAEDB5482CB22645002B3DAC;
+					};
+					DAEDB5622CB22647002B3DAC = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = DAEDB5482CB22645002B3DAC;
+					};
+				};
+			};
+			buildConfigurationList = DAEDB5442CB22645002B3DAC /* Build configuration list for PBXProject "bento-ios-example" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAEDB5402CB22645002B3DAC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DAEDB54A2CB22645002B3DAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAEDB5482CB22645002B3DAC /* bento-ios-example */,
+				DAEDB5582CB22647002B3DAC /* bento-ios-exampleTests */,
+				DAEDB5622CB22647002B3DAC /* bento-ios-exampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAEDB5472CB22645002B3DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAEDB5572CB22647002B3DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAEDB5612CB22647002B3DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAEDB5452CB22645002B3DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAEDB5552CB22647002B3DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAEDB55F2CB22647002B3DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAEDB55B2CB22647002B3DAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAEDB5482CB22645002B3DAC /* bento-ios-example */;
+			targetProxy = DAEDB55A2CB22647002B3DAC /* PBXContainerItemProxy */;
+		};
+		DAEDB5652CB22647002B3DAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAEDB5482CB22645002B3DAC /* bento-ios-example */;
+			targetProxy = DAEDB5642CB22647002B3DAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DAEDB56B2CB22647002B3DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAEDB56C2CB22647002B3DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAEDB56E2CB22647002B3DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bento-ios-example/Preview Content\"";
+				DEVELOPMENT_TEAM = 7F98K9583N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bentonow.bento-ios-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAEDB56F2CB22647002B3DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bento-ios-example/Preview Content\"";
+				DEVELOPMENT_TEAM = 7F98K9583N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bentonow.bento-ios-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAEDB5712CB22647002B3DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7F98K9583N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bentonow.bento-ios-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bento-ios-example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bento-ios-example";
+			};
+			name = Debug;
+		};
+		DAEDB5722CB22647002B3DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7F98K9583N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bentonow.bento-ios-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bento-ios-example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bento-ios-example";
+			};
+			name = Release;
+		};
+		DAEDB5742CB22647002B3DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7F98K9583N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bentonow.bento-ios-exampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bento-ios-example";
+			};
+			name = Debug;
+		};
+		DAEDB5752CB22647002B3DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7F98K9583N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bentonow.bento-ios-exampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bento-ios-example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAEDB5442CB22645002B3DAC /* Build configuration list for PBXProject "bento-ios-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAEDB56B2CB22647002B3DAC /* Debug */,
+				DAEDB56C2CB22647002B3DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAEDB56D2CB22647002B3DAC /* Build configuration list for PBXNativeTarget "bento-ios-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAEDB56E2CB22647002B3DAC /* Debug */,
+				DAEDB56F2CB22647002B3DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAEDB5702CB22647002B3DAC /* Build configuration list for PBXNativeTarget "bento-ios-exampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAEDB5712CB22647002B3DAC /* Debug */,
+				DAEDB5722CB22647002B3DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAEDB5732CB22647002B3DAC /* Build configuration list for PBXNativeTarget "bento-ios-exampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAEDB5742CB22647002B3DAC /* Debug */,
+				DAEDB5752CB22647002B3DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAEDB5412CB22645002B3DAC /* Project object */;
+}
